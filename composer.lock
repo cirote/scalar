@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "981741be2804536dbd098e4cb3201581",
+    "packages": [
+        {
+            "name": "jbzoo/simpletypes",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBZoo/SimpleTypes.git",
+                "reference": "99fa4aa2dd0afacf6993cf6df59a03c52bc82cd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBZoo/SimpleTypes/zipball/99fa4aa2dd0afacf6993cf6df59a03c52bc82cd9",
+                "reference": "99fa4aa2dd0afacf6993cf6df59a03c52bc82cd9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "jbzoo/phpunit": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JBZoo\\SimpleTypes\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SmetDenis",
+                    "role": "lead",
+                    "email": "denis@jbzoo.com"
+                }
+            ],
+            "description": "The universal PHP library to convert any values and measures",
+            "keywords": [
+                "acceleration",
+                "area",
+                "converter",
+                "degree",
+                "info",
+                "length",
+                "money",
+                "number",
+                "pressure",
+                "speed",
+                "temperature",
+                "time",
+                "volume",
+                "weight"
+            ],
+            "time": "2015-12-17T22:33:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
