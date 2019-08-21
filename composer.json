@@ -1,4 +1,7 @@
 {
+  "name": "cirote/scalar",
+  "type": "library",
+  "description": "Scalar units for Laravel",
   "require": {
     "illuminate/support": "*",
     "jbzoo/simpletypes": "^1.0"
@@ -10,10 +13,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Cirote\\ServiceProvider"
+        "Scalar\\ServiceProvider"
       ],
       "aliases": {
-        "Scalar": "Cirote\\Facade"
+        "Scalar": "Scalar\\Facade"
       }
     }
   }
