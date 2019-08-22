@@ -1,13 +1,14 @@
 <?php
 
-namespace Scalar;
+namespace Cirote\Scalar;
 
-use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\Facades\Facade as BaseFacade;
 
-class Scalar extends Facade
+class Facade extends BaseFacade
 {
     protected static function getFacadeAccessor()
     {
+        dd('Hola gg');
         return 'scalar';
     }
 }

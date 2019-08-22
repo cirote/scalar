@@ -2,21 +2,22 @@
   "name": "cirote/scalar",
   "type": "library",
   "description": "Scalar units for Laravel",
+  "license": "MIT",
   "require": {
     "illuminate/support": "*",
     "jbzoo/simpletypes": "^1.0"
   },
   "autoload": {
-    "psr-4": {"Scalar\\": "src/"}
+    "psr-4": {"Cirote\\Scalar\\": "src/"}
   },
 
   "extra": {
     "laravel": {
       "providers": [
-        "Scalar\\ServiceProvider"
+        "Cirote\\Scalar\\ServiceProvider"
       ],
       "aliases": {
-        "Scalar": "Scalar\\Facade"
+        "JeJe": "Cirote\\Scalar\\Facade"
       }
     }
   }
