@@ -6,7 +6,7 @@ class Scalar
 {
     public function __construct()
     {
-        dd('Hola');
+
     }
 
     public function Density()
