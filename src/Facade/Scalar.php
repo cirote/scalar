@@ -16,10 +16,4 @@ class Scalar extends Facade
     {
         return 'scalar';
     }
-
-    public static function kk()
-    {
-        dd(static:: getFacadeRoot()->Density());
-        return 'scalar';
-    }
 }
