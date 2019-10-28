@@ -5,10 +5,11 @@ namespace Cirote\Scalar\Facade;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static mixed Density()
+ * @method static mixed Density(string $value)
+ * @method static mixed Temperature(string $value)
+ * @method static mixed Volume(string $value)
+ * @method static mixed Weight(string $value)
  *
- * @see \Illuminate\Cache\CacheManager
- * @see \Illuminate\Cache\Repository
  */
 class Scalar extends Facade
 {
